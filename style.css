@@ -295,7 +295,7 @@ body {
 
 .nf_banner {
     position: relative;
-    height: 100vh;
+    height: calc(100vh - 80px);
     overflow: hidden;
     padding: 20px 0 0 0;
 }
@@ -444,6 +444,9 @@ body {
     .nf_header_menu ul {
         gap: 15px;
     }
+    .nf_banner {
+        height: calc(100vh - 65px);
+    }
     .nf_banner .nf_hero_content .nf_hero_main_wrap {
         gap: 30px;
     }
@@ -557,6 +560,9 @@ body {
     .nf_header_menu_mobile ul {
         background-color: #0d0d0d;
         height: 100vh;
+    }
+    .nf_banner {
+        height: auto;
     }
     .nf_banner .nf_hero_content .nf_hero_main_wrap {
         gap: 30px;
